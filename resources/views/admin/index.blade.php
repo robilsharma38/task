@@ -69,7 +69,7 @@
                                                     <i class="mdi mdi-cart-plus widget-icon"></i>
                                                 </div>
                                                 <h5 class="text-muted font-weight-normal mt-0" title="Number of Orders">Order</h5>
-                                                <h3 class="mt-3 mb-3">1</h3>
+                                                <h3 class="mt-3 mb-3">{{$order}}</h3>
                                             </div> <!-- end card-body-->
                                         </div> <!-- end card-->
                                     </div>

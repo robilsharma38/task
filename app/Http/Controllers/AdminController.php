@@ -14,7 +14,8 @@ class AdminController extends Controller
         $user = User::where('role','!=','3')->count();
         $live_product = Product::where('status','1')->count();
         $disable_product = Product::where('status','2')->count();
-        return view('admin.index',compact('user','live_product','disable_product'));
+        $order = UserOrder::count();
+        return view('admin.index',compact('user','live_product','disable_product','order'));
     }
 
 }
