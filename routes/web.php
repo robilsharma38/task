@@ -45,4 +45,6 @@ Route::group(['middleware'=>['Admin']],function(){
     Route::get('/get_product_data','ProductController@get_product_data')->name('get_product_data');
     Route::resource('/user','UserController');
     Route::get('/get_user_data','UserController@get_user_data')->name('get_user_data');
+    Route::get('/order','UserOrderController@order')->name('order');
+    Route::get('/get_order_data','UserOrderController@get_order_data')->name('get_order_data');
 });

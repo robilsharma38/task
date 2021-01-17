@@ -54,7 +54,7 @@
                                 </a>
                             </li>
                             <li class="side-nav-item">
-                                <a href="" class="side-nav-link">
+                                <a href="{{route('order')}}" class="side-nav-link">
                                     <i class="uil-briefcase"></i>
                                     <span> Orders </span>
                                 </a>
